@@ -1,0 +1,3 @@
+zip -s- kubespray.zip -O COMBINED_FILE.zip
+unzip COMBINED_FILE.zip
+docker load -i kubespray.tar
